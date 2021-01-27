@@ -1,0 +1,71 @@
+
+
+html {
+        font-size: 100%;
+     }
+
+body {
+        background: url(backgroundmath.jpg);
+        overflow-x: auto;
+     }
+
+a {
+    color: #000099;
+  }
+
+a:hover {
+            background-color: #ffffff;
+        }
+
+figure {
+            margin: 0;
+            padding: 0;
+       }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+#original-doge {
+   max-width: 10vw;
+                }
+
+
+header,
+footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1rem;
+        background-color: #d1e0e0;
+        box-shadow: 0 0 0.1rem #111;
+      }
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+       }
+
+nav ul > li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+
+main {
+    min-height: 100vh;
+    padding: 5rem 0;
+     }
+
+.text       {
+            margin: 3rem;
+            background-color: #FEFEFE;
+            }
+
+footer {
+    padding-bottom: 0.5rem;
+       }

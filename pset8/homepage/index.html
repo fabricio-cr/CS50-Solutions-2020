@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Mathpage</title>
+    </head>
+    <body>
+        <header class="fixed-top">
+            <nav>
+                <ul>
+                    <li><a href="./index.html" title="Home">Home</a></li>
+                    <li><a href="./curiosity1.html" title="Curiosity1">Curiosity 1</a></li>
+                    <li><a href="./curiosity2.html" title="Curiosity1">Curiosity 2</a></li>
+                    <li><a href="./contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="text">
+              <h1 style="text-align:center">
+                Welcome!
+              </h1>
+              <p>Mathematics is the study of numbers, shapes and patterns. The word is sometimes shortened to maths (in England, Australia, and New Zealand) or math (in the United States and Canada).
+              Mathematicians are people who do mathematics. Mathematics is useful for solving problems that occur in the real world, so many people besides mathematicians study and use mathematics.
+              Today, some mathematics is needed in many jobs. Business, science, engineering, and construction need some knowledge of mathematics.
+              Mathematicians solve problems by using logic. Mathematicians often use deduction. Deduction is a special way of thinking to discover and prove new truths using old truths.
+              To a mathematician, the reason something is true is just as important as the fact that it is true. Using deduction is what makes mathematical thinking
+              different from other kinds of thinking.
+              </p>
+              <p>This website is the right place for you to explore several curiosities about facts and concepts that involve mathematical modeling.
+                 Enjoy it!
+              </p>
+            </div>
+
+            <div>
+            <img src="https://media1.tenor.com/images/fb3f2d1e814190100a4ae401b1660d5b/tenor.gif?itemid=6081931" alt="tenor.gif" class="center" />
+            </div>
+
+            <div class="text" style="text-align:center">
+            <p>Today is</p>
+            <p id="date"></p>
+
+            <script>
+            var d = new Date();
+            document.getElementById("date").innerHTML = d.toDateString();
+            </script>
+
+            </div>
+
+        </main>
+
+        <footer class="fixed-bottom">
+            <p>Fabrício Produções - All rights reserved</p>
+        </footer>
+    </body>
+</html>
